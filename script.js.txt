@@ -1,0 +1,11 @@
+function changeContent(section) {
+    let content = document.getElementById("content");
+
+    if (section === "Home") {
+        content.textContent = "Welcome to the Home Page!";
+    } else if (section === "About") {
+        content.textContent = "This is the About Page. Here you learn about us.";
+    } else if (section === "Contact") {
+        content.textContent = "This is the Contact Page. Reach us anytime!";
+    }
+}

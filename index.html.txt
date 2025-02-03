@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to My Website</h1>
+    <p id="content">Click a link below to change this text.</p>
+
+    <div class="links">
+        <button onclick="changeContent('Home')">Home</button>
+        <button onclick="changeContent('About')">About</button>
+        <button onclick="changeContent('Contact')">Contact</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
